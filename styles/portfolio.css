@@ -1,95 +1,155 @@
-.head-title{
+.head-title {
   background-image: url("/images/Banner\ Image.png");
   width: 1320px;
   height: 600px;
   margin: 50px 130px;
-  }
-  .head-item{
-    text-align: center;
-    color: #FFF;
-    padding: 120px 350px;
-  }
-  .header-greetings-one{
-    font-size: 32px;
-    font-weight: 400;
-    text-shadow: rgb(0, 0, 0);
-  }
-  .header-greetings-two{
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 900;
-  }
+}
 
-  /* section related styles */
-  .section-title{
-   text-align: center;
-  }
-  .section-item-one{
-    color: #FF0000;
-    font-size: 88px;
-    font-weight: 700;
-    margin-top: 150px;
-  }
-  .section-item-two{
-    color: #FF0000;
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .section-item-three{
-    color: #070211;
-    font-size: 35px;
-    font-weight: 700;
-  }
-  
-  .section-img{
-    width: 802.9px;
-    height: 500px;
-    }
+.head-item {
+  text-align: center;
+  color: #FFF;
+  padding: 120px 350px;
+}
+
+.header-greetings-one {
+  font-size: 32px;
+  font-weight: 400;
+  text-shadow: rgb(0, 0, 0);
+}
+
+.header-greetings-two {
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* section related styles */
+.section-title {
+  text-align: center;
+}
+
+.section-item-one {
+  color: #FF0000;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 150px;
+}
+
+.section-item-two {
+  color: #FF0000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-item-three {
+  color: #070211;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-img {
+  width: 802.9px;
+  height: 500px;
+}
 
 
-    /* 2nd section related styles */
-   
-    .section-perty{
-      background-image: url("/images/Vectorrr.png");
-      background-repeat: no-repeat;
-      margin-left: 125px;
-      margin-top: 100px;
-      
-    }
-    .section-new-year{
-      padding-left: 850px;
-      
-      }
+/* 2nd section related styles */
 
-    .section-perty-title{
-      margin-left: 150px;
-      padding-top: 30px;
-    }
+.section-perty {
+  background-image: url("/images/Vectorrr.png");
+  background-repeat: no-repeat;
+  margin-left: 125px;
+  margin-top: 100px;
 
-    .section-perty-one{
-      width: 700px;
-      color: #FFFFFF;
-      font-size: 90px;
-      font-style: normal;
-      font-weight: 900;
-      margin-bottom: 0;
-    }
+}
 
-    .section-perty-two{
-     
-      width: 650px;
-      color: rgba(255, 255, 255, 0.80);
-       font-size: 20px;
-       font-weight: 400;
-    }
+.section-new-year {
+  padding-left: 850px;
 
-    .section-button-one{
-     margin-top: 50px;
-     margin-left: 35px;
-      color: #FFFFFF;
-      border: 1px solid black;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 700;
-      background: none;
-    }
+}
+
+.section-perty-title {
+  margin-left: 150px;
+  padding-top: 30px;
+}
+
+.section-perty-one {
+  width: 700px;
+  color: #FFFFFF;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.section-perty-two {
+
+  width: 650px;
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.section-button-one {
+  margin-top: 50px;
+  margin-left: 35px;
+  color: #FFFFFF;
+  border: 1px solid black;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  background: none;
+}
+
+/* three section related styles */
+.section-tour-title{
+  background-color: #ff00000e;
+  margin: -240px 140px;
+  width: 1320px;
+  height: 400px;
+  padding-top: 150px;
+}
+
+.orange-color-one {
+  color: #F00;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.orange-color-two {
+  color: #F00;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.orange-color-three {
+  color: #F00;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.section-tour-item {
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.btn-two {
+  margin-left: 580px;
+margin-top: 15px;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 700;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #F00;
+  border-style: none;
+}
