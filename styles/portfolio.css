@@ -47,4 +47,49 @@
     }
 
 
-    
+    /* 2nd section related styles */
+   
+    .section-perty{
+      background-image: url("/images/Vectorrr.png");
+      background-repeat: no-repeat;
+      margin-left: 125px;
+      margin-top: 100px;
+      
+    }
+    .section-new-year{
+      padding-left: 850px;
+      
+      }
+
+    .section-perty-title{
+      margin-left: 150px;
+      padding-top: 30px;
+    }
+
+    .section-perty-one{
+      width: 700px;
+      color: #FFFFFF;
+      font-size: 90px;
+      font-style: normal;
+      font-weight: 900;
+      margin-bottom: 0;
+    }
+
+    .section-perty-two{
+     
+      width: 650px;
+      color: rgba(255, 255, 255, 0.80);
+       font-size: 20px;
+       font-weight: 400;
+    }
+
+    .section-button-one{
+     margin-top: 50px;
+     margin-left: 35px;
+      color: #FFFFFF;
+      border: 1px solid black;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      background: none;
+    }
