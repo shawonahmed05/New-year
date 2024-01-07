@@ -159,7 +159,7 @@ margin-top: 15px;
 /* four section related styles */
 .display-section{
   display: flex;
-  background-color: aqua;
+  background-color: #FFF;;
   margin-top: 100px;
   margin-left: 140px;
   margin-right: 110px;
@@ -171,12 +171,13 @@ margin-top: 15px;
   text-align: center;
   font-size: 24px;
   font-weight: 500;
+  margin-left: -147px;
 }
 .display-section-item{
   color: #070211;
-  text-align: center;
  font-size: 48px;
  font-weight: 900;
+ margin-left: -75px;
 }
 .display-section-description{
   width: 350px;
@@ -192,17 +193,35 @@ margin-top: 15px;
     height: 300px;
     flex-shrink: 0;
     padding: 25px 25px 25px 25px;
+    margin-left: 130px;
+    margin-top: 20px;
   }
 
   .section-letter-title{
     color: #FF0000;
     font-size: 48px;
     font-weight: 700;
+    margin-left: 180px;
   }
   .section-letter-description{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
+    width: 276px;
+    margin-left: 185px;
+  }
+.section-letter-img{
+margin-left: 177px;
+
+}
+  .section-gap-one{
+text-align: center;
   }
 
-  
+  .sectiom-gap-two{
+    text-align: center;
+  }
+
+  #section-gap-three{
+    text-align: justify;
+  }
