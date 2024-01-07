@@ -104,10 +104,11 @@
 /* three section related styles */
 .section-tour-title{
   background-color: #ff00000e;
-  margin: -240px 140px;
+  margin: 0 140px;
   width: 1320px;
   height: 400px;
   padding-top: 150px;
+  border-radius: 20px;
 }
 
 .orange-color-one {
@@ -136,10 +137,11 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
+  padding-right: 80px;
 }
 
 .btn-two {
-  margin-left: 580px;
+  margin-left: 550px;
 margin-top: 15px;
   color: #FFF;
   font-size: 15px;
@@ -153,3 +155,54 @@ margin-top: 15px;
   background: #F00;
   border-style: none;
 }
+
+/* four section related styles */
+.display-section{
+  display: flex;
+  background-color: aqua;
+  margin-top: 100px;
+  margin-left: 140px;
+  margin-right: 110px;
+  margin-bottom: 0;
+  border-radius: 20px;
+}
+.display-section-title{
+  color: #FF0000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.display-section-item{
+  color: #070211;
+  text-align: center;
+ font-size: 48px;
+ font-weight: 900;
+}
+.display-section-description{
+  width: 350px;
+  color: rgba(7, 2, 17, 0.60);
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 400;
+  }
+  .section-img-style{
+    border-radius: 463px;
+    border: 10px solid #F00;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    padding: 25px 25px 25px 25px;
+  }
+
+  .section-letter-title{
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .section-letter-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  
