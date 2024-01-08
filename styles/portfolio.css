@@ -1,7 +1,6 @@
 .head-title {
   background-image: url("/images/Banner\ Image.png");
-  width: 1320px;
-  height: 600px;
+  border-radius: 16px;
   margin: 50px 130px;
 }
 
@@ -57,15 +56,20 @@
 
 .section-perty {
   background-image: url("/images/Vectorrr.png");
-  background-repeat: no-repeat;
-  margin-left: 125px;
-  margin-top: 100px;
-
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 600px;
+  margin-right: 115px;
+  margin-bottom: 50px;
+  border-radius: 20px;
 }
 
 .section-new-year {
-  padding-left: 850px;
-
+  padding-top: 90px;
+  padding-right: 100px;
+  height: 400px;
+  background: none;
 }
 
 .section-perty-title {
@@ -102,7 +106,7 @@
 }
 
 /* three section related styles */
-.section-tour-title{
+.section-tour-title {
   background-color: #ff00000e;
   margin: 0 140px;
   width: 1320px;
@@ -137,12 +141,12 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  padding-right: 80px;
+  padding-right: 30px;
 }
 
 .btn-two {
-  margin-left: 550px;
-margin-top: 15px;
+  margin-left: 600px;
+  margin-top: 15px;
   color: #FFF;
   font-size: 15px;
   font-weight: 700;
@@ -157,71 +161,125 @@ margin-top: 15px;
 }
 
 /* four section related styles */
-.display-section{
+.display-section {
   display: flex;
-  background-color: #FFF;;
+  background-color: #FFF;
   margin-top: 100px;
   margin-left: 140px;
-  margin-right: 110px;
+  /* margin-right: 110px; */
   margin-bottom: 0;
   border-radius: 20px;
 }
-.display-section-title{
+
+.display-section-title {
   color: #FF0000;
   text-align: center;
   font-size: 24px;
   font-weight: 500;
   margin-left: -147px;
 }
-.display-section-item{
+
+.display-section-item {
   color: #070211;
- font-size: 48px;
- font-weight: 900;
- margin-left: -75px;
+  font-size: 48px;
+  font-weight: 900;
+  margin-left: -75px;
 }
-.display-section-description{
+
+.display-section-description {
   width: 350px;
   color: rgba(7, 2, 17, 0.60);
   text-align: justify;
   font-size: 20px;
   font-weight: 400;
-  }
-  .section-img-style{
-    border-radius: 463px;
-    border: 10px solid #F00;
-    width: 300px;
-    height: 300px;
-    flex-shrink: 0;
-    padding: 25px 25px 25px 25px;
-    margin-left: 130px;
-    margin-top: 20px;
-  }
+}
 
-  .section-letter-title{
-    color: #FF0000;
-    font-size: 48px;
-    font-weight: 700;
-    margin-left: 180px;
-  }
-  .section-letter-description{
-    color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
-    font-weight: 400;
-    width: 276px;
-    margin-left: 185px;
-  }
-.section-letter-img{
-margin-left: 177px;
+.section-img-style {
+  border-radius: 463px;
+  border: 10px solid #F00;
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+  padding: 25px 25px 25px 25px;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.section-letter-title {
+  color: #FF0000;
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 180px;
+}
+
+.section-letter-description {
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-weight: 400;
+  width: 276px;
+  margin-left: 185px;
+}
+
+.section-letter-img {
+  margin-left: 177px;
 
 }
-  .section-gap-one{
-text-align: center;
-  }
 
-  .sectiom-gap-two{
-    text-align: center;
-  }
+.section-gap-one {
+  text-align: center;
+}
 
-  #section-gap-three{
-    text-align: justify;
-  }
+.sectiom-gap-two {
+  text-align: center;
+}
+
+#section-gap-three {
+  text-align: justify;
+}
+
+/* five section related style */
+
+.discount-section {
+  text-align: center;
+}
+
+.discount-item-one {
+  color: #070211;
+  font-size: 20px;
+  font-weight: 500;
+}
+.highlight-text{
+  color: #F00;
+}
+.discount-item-two{
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 0;
+}
+.discount-item-three{
+  width: 570px;
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: -50px;
+  margin-left: 500px;
+}
+.discount-img-one{
+  width: 400px;
+  height: 400px;
+  background-image: url("/images/Rectangle\ 1.png");
+  margin-left: 1000px;
+}
+
+.discount-img-two{
+  margin-left: -150px;
+  margin-top: 50px;
+}
+.discount-img-three{
+  background-image: url("/images/Rectangle\ 2.png");
+  height: 230px;
+  background-size: cover;
+  justify-content: center;
+  margin: 0 105px;
+}
