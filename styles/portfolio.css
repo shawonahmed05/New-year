@@ -368,8 +368,8 @@ font-weight: 400;
   border-top-left-radius: 30px;
 }
 .subscribe-btn{
-  padding-top: 17px;
-  padding-bottom: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 38px;
   padding-right: 38px;
   background-color: #FF0000;
@@ -377,4 +377,50 @@ font-weight: 400;
   border-top-right-radius: 30px;
   border-style: none;
   margin-left: -8px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
+
+
+/* footer section related style */
+ .footer-section-one{
+  display: flex;
+  justify-content: space-between;
+  /* color: #FFF; */
+ font-size: 20px;
+ font-weight: 500;
+ }
+ .footer-item-one{
+  width: 300px;
+ }
+ .footer-item-two{
+  width: 180px;
+ }
+
+.footer-hr{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.footer-section-two{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-item-three{
+  /* color: #FFF; */
+  font-size: 15px;
+  font-weight: 500;
+}
+.footer-item-four{
+  width: 40px;
+  height: 40px;
+}
+.footer-item-five{
+  /* color: #FFF; */
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
