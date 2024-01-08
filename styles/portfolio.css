@@ -248,16 +248,19 @@
   font-size: 20px;
   font-weight: 500;
 }
-.highlight-text{
+
+.highlight-text {
   color: #F00;
 }
-.discount-item-two{
+
+.discount-item-two {
   color: #070211;
   font-size: 72px;
   font-weight: 900;
   margin-top: 0;
 }
-.discount-item-three{
+
+.discount-item-three {
   width: 570px;
   color: rgba(7, 2, 17, 0.60);
   font-size: 17px;
@@ -265,21 +268,66 @@
   margin-top: -50px;
   margin-left: 500px;
 }
-.discount-img-one{
+
+.discount-img-one {
   width: 400px;
   height: 400px;
   background-image: url("../images/Rectangle\ 1.png");
-  margin-left: 1000px;
+  margin-left: 1060px;
+  border-radius: 10px;
 }
 
-.discount-img-two{
+.discount-img-two {
   margin-left: -150px;
   margin-top: 50px;
 }
-.discount-img-three{
+
+.discount-img-three {
   background-image: url("../images/Rectangle\ 2.png");
   height: 230px;
   background-size: cover;
-  justify-content: center;
   margin: 0 105px;
+  margin-left: 135px;
+  border-top-right-radius: 10px;
 }
+
+.section-discount-main {
+  background-color: #FFFFFF;
+  margin-top: 150px;
+  background-size: 700px;
+  background-repeat: no-repeat;
+}
+
+
+/* grid six section related style */
+.grid-section-main {
+  margin-top: 100px;
+  margin-left: 130px;
+}
+
+.grid-one {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.grid-title {
+  color: #F00;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.grid-highlight{
+  margin-top: -10px;
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+.grid-description{ 
+width: 896px;
+margin-top: -30px;
+color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+}
+
+/* six section related style */
