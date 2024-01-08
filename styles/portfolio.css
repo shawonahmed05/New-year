@@ -1,5 +1,5 @@
 .head-title {
-  background-image: url("/images/Banner\ Image.png");
+  background-image: url("../images/Banner\ Image.png");
   border-radius: 16px;
   margin: 50px 130px;
 }
@@ -55,7 +55,7 @@
 /* 2nd section related styles */
 
 .section-perty {
-  background-image: url("/images/Vectorrr.png");
+  background-image: url("../images/Vectorrr.png");
   background-size: cover;
   display: flex;
   width: 100%;
@@ -268,7 +268,7 @@
 .discount-img-one{
   width: 400px;
   height: 400px;
-  background-image: url("/images/Rectangle\ 1.png");
+  background-image: url("../images/Rectangle\ 1.png");
   margin-left: 1000px;
 }
 
@@ -277,7 +277,7 @@
   margin-top: 50px;
 }
 .discount-img-three{
-  background-image: url("/images/Rectangle\ 2.png");
+  background-image: url("../images/Rectangle\ 2.png");
   height: 230px;
   background-size: cover;
   justify-content: center;
