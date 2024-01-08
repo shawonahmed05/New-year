@@ -383,44 +383,73 @@ font-weight: 400;
 
 
 /* footer section related style */
- .footer-section-one{
+ .footer-main{
+  background-color: #070211;
+  width: 1600px;
+  height: 609px;
+  margin: 0;
+  background-size: cover;
+
+ }
+.footer-section-one{
   display: flex;
   justify-content: space-between;
-  /* color: #FFF; */
- font-size: 20px;
+  color: #FFF;
+ font-size: 15px;
  font-weight: 500;
  }
  .footer-item-one{
   width: 300px;
+  margin: 100px 140px;
  }
  .footer-item-two{
-  width: 180px;
+  width: 170px;
+  margin: 100px 240px;
  }
 
 .footer-hr{
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 130px;
+  margin-right: 170px;
+  margin-top: -70px;
+}
+.social-image{
+  text-align: center;
+
 }
 
+.footer-hr-two{
+  margin-left: 130px;
+  margin-right: 170px;
+  margin-top: 70px;
+}
 .footer-section-two{
   display: flex;
   justify-content: space-between;
-
+  margin-left: 130px;
+  margin-right: 170px;
+  margin-top: 50px;
 }
 
 .footer-item-three{
-  /* color: #FFF; */
+  color: #FFF;
   font-size: 15px;
   font-weight: 500;
+  
 }
 .footer-item-four{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 50px;
+
+  
 }
 .footer-item-five{
-  /* color: #FFF; */
-  font-size: 24px;
+  color: #FFF;
+  font-size: 15px;
   font-weight: 500;
+  background-color: #070211;
+  border-style: none;
 }
 
 
